@@ -1,6 +1,7 @@
 **/*.7z
 **/*.png
-**/*.txt
 
 !Grace BG/*.png
 !Grace BG/*.jpg
+!TQ2 Rus/*.7z
+!TQ2 Rus/**/*.7z

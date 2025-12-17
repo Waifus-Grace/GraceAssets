@@ -1,0 +1,10 @@
+Закиньте папку в корневую папку игры по следующему пути: ...\Titan Quest II
+
+Если вы обновляете русификатор на более новый, то потребуется замена файлов. Просто согласитесь
+
+Вы можете проверить правильность установки, убедившись в присутствии файлов по следующим путям:
+1. ...\Titan Quest II\TQ2\Content\Paks\Russian_TQGrace_P.pak
+2. ...\Titan Quest II\TQ2\Content\Localization\CSVTranslations\ExportForGame\*Название файла*_ru.csv
+3. ...\Titan Quest II\TQ2\Content\TQ2\Data\Text\TimedSubtitles\*Название файла*_ru.srt
+
+Если вы хотите полностью удалить русификатор, то удалите файлы по перечисленным выше путям
