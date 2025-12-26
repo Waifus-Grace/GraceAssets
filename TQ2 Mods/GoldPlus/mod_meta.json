@@ -1,0 +1,7 @@
+{
+    "version": "1.3",
+    "type": "pak",
+    "state": "working",
+    "incompatible_mods": "LimitsBegone",
+    "description": "Повышает базовое количество выпадаемого золота из всех источников"
+}

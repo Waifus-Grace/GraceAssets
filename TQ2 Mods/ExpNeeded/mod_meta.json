@@ -1,0 +1,7 @@
+{
+    "version": "1.1",
+    "type": "config",
+    "state": "working",
+    "incompatible_mods": "PointsPlus, ExpPlus, BetterRituals, ExpLossOnDeath",
+    "description": "Повышает или понижает количество требуемого опыта для повышения уровня"
+}
