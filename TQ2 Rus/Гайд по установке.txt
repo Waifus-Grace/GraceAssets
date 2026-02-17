@@ -4,6 +4,8 @@
 
 Вы можете проверить правильность установки, убедившись в присутствии файлов по следующим путям:
 1. ...\Titan Quest II\TQ2\Content\Paks\Russian_TQGrace_P.pak
+1. ...\Titan Quest II\TQ2\Content\Paks\Russian_TQGrace_P.utoc
+1. ...\Titan Quest II\TQ2\Content\Paks\Russian_TQGrace_P.ucas
 2. ...\Titan Quest II\TQ2\Content\Localization\CSVTranslations\ExportForGame\*Название файла*_ru.csv
 3. ...\Titan Quest II\TQ2\Content\TQ2\Data\Text\TimedSubtitles\*Название файла*_ru.srt
 
