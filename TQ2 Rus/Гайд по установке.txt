@@ -1,12 +1,15 @@
-Закиньте папку в корневую папку игры по следующему пути: ...\Titan Quest II
+Закиньте папку TQ в корневую папку игры по следующему пути: ...\Titan Quest II
 
 Если вы обновляете русификатор на более новый, то потребуется замена файлов. Просто согласитесь
 
 Вы можете проверить правильность установки, убедившись в присутствии файлов по следующим путям:
 1. ...\Titan Quest II\TQ2\Content\Paks\Russian_TQGrace_P.pak
-1. ...\Titan Quest II\TQ2\Content\Paks\Russian_TQGrace_P.utoc
-1. ...\Titan Quest II\TQ2\Content\Paks\Russian_TQGrace_P.ucas
-2. ...\Titan Quest II\TQ2\Content\Localization\CSVTranslations\ExportForGame\*Название файла*_ru.csv
-3. ...\Titan Quest II\TQ2\Content\TQ2\Data\Text\TimedSubtitles\*Название файла*_ru.srt
+2. ...\Titan Quest II\TQ2\Content\Paks\Russian_TQGrace_P.utoc
+3. ...\Titan Quest II\TQ2\Content\Paks\Russian_TQGrace_P.ucas
+4. ...\Titan Quest II\TQ2\Content\Paks\Russian_TQGraceFont_P.pak
+5. ...\Titan Quest II\TQ2\Content\Paks\Russian_TQGraceFont_P.utoc
+6. ...\Titan Quest II\TQ2\Content\Paks\Russian_TQGraceFont_P.ucas
+7. ...\Titan Quest II\TQ2\Content\Localization\CSVTranslations\ExportForGame\*Название файла*_ru.csv
+8. ...\Titan Quest II\TQ2\Content\TQ2\Data\Text\TimedSubtitles\*Название файла*_ru.srt
 
 Если вы хотите полностью удалить русификатор, то удалите файлы по перечисленным выше путям
