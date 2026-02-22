@@ -72,8 +72,8 @@
         "description": "Повышает базовый шанс выпадения необычных и эпических предметов с врагов и сундуков"
     },
     "PointsPerLevel": {
-        "version": "1.1",
-        "state": "broken",
+        "version": "1.2",
+        "state": "working",
         "incompatible_mods": "ExpPlus, ExpNeeded, ExpLossOnDeath, BetterRituals",
         "description": "Повышает или понижает количество очков божественности, атрибутов, умений и способностей, получаемых за повышение уровня"
     },

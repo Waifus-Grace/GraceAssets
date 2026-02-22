@@ -2,3 +2,5 @@ Drop the folders from the desired version of the mod into the root folder of the
 
 You can check if the mod is installed correctly by checking the following path:
 ...\Titan Quest II\TQ2\Content\Paks\PointsPerLevel_x.Divinity_x.Ability_x.Active_x.Passive_P.pak
+...\Titan Quest II\TQ2\Content\Paks\PointsPerLevel_x.Divinity_x.Ability_x.Active_x.Passive_P.ucas
+...\Titan Quest II\TQ2\Content\Paks\PointsPerLevel_x.Divinity_x.Ability_x.Active_x.Passive_P.utoc

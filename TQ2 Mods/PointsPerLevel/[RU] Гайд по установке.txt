@@ -2,3 +2,5 @@
 
 Вы можете проверить правильность установки мода, убедившись в присутствии файла по следующему пути:
 ...\Titan Quest II\TQ2\Content\Paks\PointsPerLevel_x.Divinity_x.Ability_x.Active_x.Passive_P.pak
+...\Titan Quest II\TQ2\Content\Paks\PointsPerLevel_x.Divinity_x.Ability_x.Active_x.Passive_P.ucas
+...\Titan Quest II\TQ2\Content\Paks\PointsPerLevel_x.Divinity_x.Ability_x.Active_x.Passive_P.utoc
