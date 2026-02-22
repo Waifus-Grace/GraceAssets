@@ -2,3 +2,5 @@ Drop the folders from the desired version of the mod into the root folder of the
 
 You can check if the mod is installed correctly by checking the following paths:
 ...\Titan Quest II\TQ2\Content\Paks\XMAX_*Mod Version*.pak
+...\Titan Quest II\TQ2\Content\Paks\XMAX_*Mod Version*.ucas
+...\Titan Quest II\TQ2\Content\Paks\XMAX_*Mod Version*.utoc
