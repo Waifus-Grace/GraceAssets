@@ -54,8 +54,8 @@
         "description": "Повышает базовое количество получаемого опыта с врагов и заданий"
     },
     "GoldPlus": {
-        "version": "1.3",
-        "state": "broken",
+        "version": "1.4",
+        "state": "working",
         "incompatible_mods": "LimitsBegone",
         "description": "Повышает базовое количество выпадаемого золота из всех источников"
     },
