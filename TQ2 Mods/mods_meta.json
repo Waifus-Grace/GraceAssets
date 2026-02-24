@@ -8,7 +8,7 @@
     "BetterRituals": {
         "version": "0.2.0",
         "state": "broken",
-        "incompatible_mods": "PointsPerLevel, ExpPlus, ExpNeeded, ExpLossOnDeath",
+        "incompatible_mods": "PointsPerLevel, ExpPlus, ExpNeeded, ExpLossOnDeath, LootPlus",
         "description": "Позволяет повышать сложность игры еще сильнее, чем дозволено. Влияет на стоимость проводимых ритуалов\n\nВНИМАНИЕ: максимальный уровень врагов равен 75. Если вы хотите повысить это значение вплоть до 999, то вам также нужен мод «LimitsBegone»\n\nВерсии мода:\nEnhancedLimit: повышает предел сложности с базовых +5 до +1000\n\nDefaultLimit: не влияет на предел сложности\n\nDefaultCost: не влияет на стоимость ритуалов\n\nNoCost: делает ритуалы бесплатными\n\nCost.x0.25 - x5: умножает стоимость ритуалов на выбранное значение"
     },
     "BetterScavenger": {
@@ -38,19 +38,19 @@
     "ExpLossOnDeath": {
         "version": "1.1",
         "state": "broken",
-        "incompatible_mods": "PointsPerLevel, ExpPlus, ExpNeeded, BetterRituals",
+        "incompatible_mods": "PointsPerLevel, ExpPlus, ExpNeeded, BetterRituals, LootPlus",
         "description": "Повышает количество теряемого опыта после смерти персонажа. Изначально это значение составляет лишь 1% от уровня, но мод позволит поднять его вплоть до 100% потери опыта (понизить сам уровень не получится)"
     },
     "ExpNeeded": {
         "version": "1.1",
         "state": "broken",
-        "incompatible_mods": "PointsPerLevel, ExpPlus, BetterRituals, ExpLossOnDeath",
+        "incompatible_mods": "PointsPerLevel, ExpPlus, BetterRituals, ExpLossOnDeath, LootPlus",
         "description": "Повышает или понижает количество требуемого опыта для повышения уровня"
     },
     "ExpPlus": {
         "version": "1.1",
         "state": "broken",
-        "incompatible_mods": "PointsPerLevel, BetterRituals, ExpNeeded, ExpLossOnDeath",
+        "incompatible_mods": "PointsPerLevel, BetterRituals, ExpNeeded, ExpLossOnDeath, LootPlus",
         "description": "Повышает базовое количество получаемого опыта с врагов и заданий"
     },
     "GoldPlus": {
@@ -66,15 +66,15 @@
         "description": "Повышает предельный уровень врагов и предметов. Без мода «BetterRituals» на повышение предельной сложности игры заметить изменений не получится\n\nВерсии мода:\nSoft: повышает максимальный уровень предметов до 70 и максимальный уровень врагов до 999\n\nHard: повышает максимальный уровень предметов до 90 и максимальный уровень врагов до 999\n\nAbsoluteCinema: повышает максимальный уровень предметов до 999 и максимальный уровень врагов до 999. При огромном уровне предмета сломается его название, но все остальное будет в порядке. Также при огромном уровне предмета его цена может составлять десятки миллионов золота, поэтому для желающих попробовать это мы сделали версии мода с уменьшением стоимости предметов\n\nDefaultCost: не влияет на цену предметов\n\nNoCost: обнуляет цену всех предметов, включая цены у торговцев и собирателя\n\nCost.x0.25 - x0.5: умножает цену предметов на выбранное значение"
     },
     "LootPlus": {
-        "version": "1.3",
-        "state": "broken",
-        "incompatible_mods": "",
-        "description": "Повышает базовый шанс выпадения необычных и эпических предметов с врагов и сундуков"
+        "version": "1.4",
+        "state": "working",
+        "incompatible_mods": "ExpPlus, ExpNeeded, ExpLossOnDeath, BetterRituals, PointsPerLevel",
+        "description": "Влияет на шансы выпадения предметов с врагов и сундуков\n\nВерсии мода:\nx2 - x100: повышает в примерно* выбранное количество раз шанс выпадения редких, необычных и эпических предметов с сохранением ванильного соотношения между редкостями (подробнее в конце)\n\nRemoveTrash: не позволяет получать обычные и магические предметы\n\nEpicOnly: получаемые предметы могут быть только эпического качества\n\nInfrequentOnly: получаемые предметы могут быть только необычного качества\n\nRareOnly: получаемые предметы могут быть только редкого качества\n\nMagicOnly: получаемые предметы могут быть только магического качества\n\nCommonOnly: получаемые предметы могут быть только обычного качества\n\n*Шанс выпадения выражается в весах, итоговая сумма которых должна равняться 100. Изначально игра работает со следующими весами: Common = 60, Magic = 32, Rare = 6.2, Infrequent = 1.5, Epic = 0.3. Мод заменяет эти веса, примерно повышая отдельные редкости на выбранное значение, сохраняя оригинальное соотношение между редкостями (чтобы Rare так же встречалось чаще, чем Infrequent и т.д.) и соответственно снижая шанс выпадения Common и Magic, чтобы итоговая сумма редкостей оставалась равна 100 единицам. Например, х5 модификатор превратит изначальные веса в следующие: Common = 50.2, Magic = 26.8, Rare = 15.5, Infrequent = 6.3, Epic = 1.2"
     },
     "PointsPerLevel": {
         "version": "1.2",
         "state": "working",
-        "incompatible_mods": "ExpPlus, ExpNeeded, ExpLossOnDeath, BetterRituals",
+        "incompatible_mods": "ExpPlus, ExpNeeded, ExpLossOnDeath, BetterRituals, LootPlus",
         "description": "Повышает или понижает количество очков божественности, атрибутов, умений и способностей, получаемых за повышение уровня"
     },
     "RelicPlus": {
