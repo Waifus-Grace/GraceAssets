@@ -2,3 +2,5 @@
 
 Вы можете проверить правильность установки мода, убедившись в присутствии файла по следующему пути:
 1. ...\Titan Quest II\TQ2\Content\Paks\BetterScavenger_*версия мода*_P.pak
+1. ...\Titan Quest II\TQ2\Content\Paks\BetterScavenger_*версия мода*_P.ucas
+1. ...\Titan Quest II\TQ2\Content\Paks\BetterScavenger_*версия мода*_P.utoc
