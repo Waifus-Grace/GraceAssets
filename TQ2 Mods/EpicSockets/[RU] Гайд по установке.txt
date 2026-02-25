@@ -1,6 +1,0 @@
-Закиньте папку TQ в корневую папку игры по следующему пути: ...\Titan Quest II
-
-Вы можете проверить правильность установки мода, убедившись в присутствии файла по следующему пути:
-...\Titan Quest II\TQ2\Content\Paks\EpicSockets_P.pak
-...\Titan Quest II\TQ2\Content\Paks\EpicSockets_P.ucas
-...\Titan Quest II\TQ2\Content\Paks\EpicSockets.utoc

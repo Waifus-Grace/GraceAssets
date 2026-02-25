@@ -8,7 +8,7 @@
     "BetterRituals": {
         "version": "0.2.0",
         "state": "broken",
-        "incompatible_mods": "PointsPerLevel, ExpPlus, ExpNeeded, ExpLossOnDeath, LootPlus, EpicSockets",
+        "incompatible_mods": "PointsPerLevel, ExpPlus, ExpNeeded, ExpLossOnDeath, LootPlus, BetterSockets",
         "description": "Позволяет повышать сложность игры еще сильнее, чем дозволено. Влияет на стоимость проводимых ритуалов\n\nВНИМАНИЕ: максимальный уровень врагов равен 75. Если вы хотите повысить это значение вплоть до 999, то вам также нужен мод «LimitsBegone»\n\nВерсии мода:\nEnhancedLimit: повышает предел сложности с базовых +5 до +1000\n\nDefaultLimit: не влияет на предел сложности\n\nDefaultCost: не влияет на стоимость ритуалов\n\nNoCost: делает ритуалы бесплатными\n\nCost.x0.25 - x5: умножает стоимость ритуалов на выбранное значение"
     },
     "BetterScavenger": {
@@ -38,19 +38,19 @@
     "ExpLossOnDeath": {
         "version": "1.1",
         "state": "broken",
-        "incompatible_mods": "PointsPerLevel, ExpPlus, ExpNeeded, BetterRituals, LootPlus, EpicSockets",
+        "incompatible_mods": "PointsPerLevel, ExpPlus, ExpNeeded, BetterRituals, LootPlus, BetterSockets",
         "description": "Повышает количество теряемого опыта после смерти персонажа. Изначально это значение составляет лишь 1% от уровня, но мод позволит поднять его вплоть до 100% потери опыта (понизить сам уровень не получится)"
     },
     "ExpNeeded": {
         "version": "1.1",
         "state": "broken",
-        "incompatible_mods": "PointsPerLevel, ExpPlus, BetterRituals, ExpLossOnDeath, LootPlus, EpicSockets",
+        "incompatible_mods": "PointsPerLevel, ExpPlus, BetterRituals, ExpLossOnDeath, LootPlus, BetterSockets",
         "description": "Повышает или понижает количество требуемого опыта для повышения уровня"
     },
     "ExpPlus": {
         "version": "1.1",
         "state": "broken",
-        "incompatible_mods": "PointsPerLevel, BetterRituals, ExpNeeded, ExpLossOnDeath, LootPlus, EpicSockets",
+        "incompatible_mods": "PointsPerLevel, BetterRituals, ExpNeeded, ExpLossOnDeath, LootPlus, BetterSockets",
         "description": "Повышает базовое количество получаемого опыта с врагов и заданий"
     },
     "GoldPlus": {
@@ -68,13 +68,13 @@
     "LootPlus": {
         "version": "1.4",
         "state": "working",
-        "incompatible_mods": "ExpPlus, ExpNeeded, ExpLossOnDeath, BetterRituals, PointsPerLevel, EpicSockets",
+        "incompatible_mods": "ExpPlus, ExpNeeded, ExpLossOnDeath, BetterRituals, PointsPerLevel, BetterSockets",
         "description": "Влияет на шансы выпадения предметов с врагов и сундуков\n\nВерсии мода:\nx2 - x100: повышает в примерно* выбранное количество раз шанс выпадения редких, необычных и эпических предметов с сохранением ванильного соотношения между редкостями (подробнее в конце)\n\nRemoveTrash: не позволяет получать обычные и магические предметы\n\nEpicOnly: получаемые предметы могут быть только эпического качества\n\nInfrequentOnly: получаемые предметы могут быть только необычного качества\n\nRareOnly: получаемые предметы могут быть только редкого качества\n\nMagicOnly: получаемые предметы могут быть только магического качества\n\nCommonOnly: получаемые предметы могут быть только обычного качества\n\n*Шанс выпадения выражается в весах, итоговая сумма которых должна равняться 100. Изначально игра работает со следующими весами: Common = 60, Magic = 32, Rare = 6.2, Infrequent = 1.5, Epic = 0.3. Мод заменяет эти веса, примерно повышая отдельные редкости на выбранное значение, сохраняя оригинальное соотношение между редкостями (чтобы Rare так же встречалось чаще, чем Infrequent и т.д.) и соответственно снижая шанс выпадения Common и Magic, чтобы итоговая сумма редкостей оставалась равна 100 единицам. Например, х5 модификатор превратит изначальные веса в следующие: Common = 50.2, Magic = 26.8, Rare = 15.5, Infrequent = 6.3, Epic = 1.2"
     },
     "PointsPerLevel": {
         "version": "1.2",
         "state": "working",
-        "incompatible_mods": "ExpPlus, ExpNeeded, ExpLossOnDeath, BetterRituals, LootPlus, EpicSockets",
+        "incompatible_mods": "ExpPlus, ExpNeeded, ExpLossOnDeath, BetterRituals, LootPlus, BetterSockets",
         "description": "Повышает или понижает количество очков божественности, атрибутов, умений и способностей, получаемых за повышение уровня"
     },
     "RelicPlus": {
@@ -107,7 +107,7 @@
         "incompatible_mods": "",
         "description": "Усложняет игру, меняя принцип формирования уровня выпадаемых предметов\n\nВерсии мода:\nPlayerLevel: уровень выпадаемых предметов теперь будет зависеть от уровня игрока, а не уровня врагов в области. Это значит, что при 10-ом уровне персонажа вы будете получать предметы ~10 уровня (даже если вы увеличили уровень области на +20 при помощи Ритуала Ареса)\n\nPlayerLevel-X: уровень выпадаемых предметов будет равен уровню игрока минус значение X\n\nEnemyLevel-X: уровень выпадаемых предметов будет равен уровню области (как в ванилке) минус значение X"
     },
-    "EpicSockets": {
+    "BetterSockets": {
         "version": "1.0",
         "state": "working",
         "incompatible_mods": "ExpPlus, ExpNeeded, ExpLossOnDeath, BetterRituals, LootPlus, PointsPerLevel",
