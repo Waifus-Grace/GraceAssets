@@ -1,0 +1,6 @@
+Drop the TQ folders into the root folder of the game: ...\Titan Quest II
+
+You can check if the mod is installed correctly by checking the following path:
+...\Titan Quest II\TQ2\Content\Paks\EpicSockets_P.pak
+...\Titan Quest II\TQ2\Content\Paks\EpicSockets_P.ucas
+...\Titan Quest II\TQ2\Content\Paks\EpicSockets_P.utoc
