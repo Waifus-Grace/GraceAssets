@@ -2,3 +2,5 @@
 
 Вы можете проверить правильность установки мода, убедившись в присутствии файла по следующему пути:
 ...\Titan Quest II\TQ2\Content\Paks\BetterRituals_*версия мода*.pak
+...\Titan Quest II\TQ2\Content\Paks\BetterRituals_*версия мода*.ucas
+...\Titan Quest II\TQ2\Content\Paks\BetterRituals_*версия мода*.utoc
